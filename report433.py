@@ -10,7 +10,7 @@ import urllib2
 def reportSensor( sensorId ):
 
         config = ConfigParser.ConfigParser()
-        config.read("./uploader-no-ip.cfg")
+        config.read("/home/pi/Surveillance/uploader-no-ip.cfg")
 
         #Domoticz account credentials
         username = config.get('domoticz', 'user')
