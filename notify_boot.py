@@ -18,7 +18,7 @@ import sys
 import ConfigParser
 
 config = ConfigParser.ConfigParser()
-config.read("./uploader-no-ip.cfg")
+config.read("/home/pi/Surveillance/uploader-no-ip.cfg")
 
 #gmail account credentials
 username = config.get('gmail', 'user')
